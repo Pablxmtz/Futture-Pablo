@@ -1,9 +1,10 @@
 {% include "./header.njk" %}
 
   {% include "./nav.njk" %}
-
-    {{ content | safe }}
-
+  
+    <div class="container">
+      {{ content | safe }}
+    </div>
 
   <script src="/scripts/index.js"></script>
 </body>
