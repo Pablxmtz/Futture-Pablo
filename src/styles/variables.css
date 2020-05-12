@@ -1,4 +1,7 @@
 html {
-    --color-fondo-body: hotpink;
-    --color-texto-body: white;
+    --color-fondo-body: white;
+    --color-texto-body: black;
+    --fondo-footer: #252525;
+
+    --margin-body: 30px;
 }

@@ -1,10 +1,30 @@
-<div class="nav">
-{% set navPages = collections.all | eleventyNavigation %}
-{%- for elemento in navPages %}
-    <a href="{{ elemento.url | url }}"
-        {% if elemento.url == page.url %} class="activo"{% endif %}
-    >
-    {{ elemento.title }}
+<div class="nav-flex">
+    <a href="/" class="logo">
+        <img src="/images/iconos_nav/Logo_Zap_Futture.png">
     </a>
-{%- endfor %}
+
+    <div class="nav">
+        {% set navPages = collections.all | eleventyNavigation %}
+        {%- for elemento in navPages %}
+            <a href="{{ elemento.url | url }}"
+                {% if elemento.url == page.url %} class="activo"{% endif %}
+            >
+            {{ elemento.title }}
+            </a>
+        {%- endfor %}
+    </div>
+
+    <div class="iconos-nav">
+            <a href="">
+                <img src="/images/iconos_nav/buscador.png">
+            </a>
+
+             <a href="">
+                <img src="/images/iconos_nav/bolsa.png">
+            </a>
+
+             <a href="">
+                <img src="/images/iconos_nav/perfil.png">
+            </a>
+    </div>
 </div>

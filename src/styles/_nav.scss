@@ -1,17 +1,37 @@
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: var(--margin-body);
+    padding-right: var(--margin-body);
+}
+
 .nav {
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
 }
 
-
 .nav a {
     text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    margin-right: 1rem;
+    color: black;
+    font-family: CircularRegular;
+    margin-right: 3rem;
 }
 
 .nav a.activo {
-    border-bottom: 2px solid;
+    border-bottom: 1px solid grey;
+}
+
+.iconos-nav {
+    display: flex;
+    align-items: center;
+}
+
+.iconos-nav img{
+    height: 40px;
+}
+
+.logo {
+    max-width: 100px;
 }

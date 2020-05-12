@@ -1,4 +1,13 @@
 body {
     background-color: var(--color-fondo-body);
     color: var(--color-texto-body);
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
 }

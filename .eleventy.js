@@ -1,6 +1,7 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/Tipos');
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return {
