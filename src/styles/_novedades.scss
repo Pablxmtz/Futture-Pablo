@@ -1,0 +1,60 @@
+.ordenar {
+    font-family: BlackerRegular;
+}
+
+.ordenar-categorias {
+    display: flex;
+    font-size: 20px;
+}
+
+.categoria {
+    margin-right: 40px;
+}
+
+.subrayar {
+    border-bottom: 1px solid black;
+}
+
+.ficha-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ficha-flex a {
+    color: black;
+}
+
+.producto img {
+    max-width: 435px;
+}
+
+.paginas {
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: CircularRegular;
+}
+
+.num-paginas {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.num-paginas img {
+    height: 40px;
+}
+
+.paginas-flex {
+    display: flex;
+}
+
+.paginas-flex a {
+    color: black;
+}

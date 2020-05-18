@@ -11,3 +11,23 @@ img {
 a {
     text-decoration: none;
 }
+
+.div-inicial {
+    margin: var(--margin-body);
+}
+
+.texto-subtitulo {
+    font-family: CircularRegular;
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.texto-subtitulo img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.img-texto {
+    display: flex;
+    align-items: center;
+}

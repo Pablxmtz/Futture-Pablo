@@ -1,0 +1,50 @@
+[
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "1000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_1.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "2000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_2.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "3000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_3.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "4000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_5.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "5000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_6.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "6000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_7.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "6000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_8.png"
+    },
+    {
+        "modelo": "hola",
+        "tipoprenda": "adeu",
+        "precio": "6000€",
+        "imagen": "/images/Productos_Zapatillas/Zapatillas_9.png"
+    }
+]

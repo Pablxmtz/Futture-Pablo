@@ -1,0 +1,60 @@
+<div class="ordenar">
+    <div>
+        Ordenar por:
+    </div>
+
+    <div class="ordenar-categorias">
+        <div class="categoria subrayar">Precio</div>
+        <div class="categoria">Favoritos</div>
+        <div class="categoria">Reciente</div>
+    </div>
+</div>
+
+<div class="ficha-flex">
+    {% for elementoActual in autores %}
+        {% set datosFicha = elementoActual %}
+        <a href="/producto/">
+            <div class="producto">
+                    <img src="{{datosFicha.imagen}}">
+                <div class="descripcion">
+                    <h4>{{datosFicha.modelo}}</h4>
+                    <h4>{{datosFicha.tipoprenda}}</h4>
+                    <br>
+                    <h4>{{datosFicha.precio}}</h4>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+
+<div class="num-paginas">
+    <a href="">
+        <img src="/images/iconos_paginas/atras.png">
+    </a>
+
+    <div class="paginas-flex">
+        <a href="">
+            <div class="paginas">1</div>
+        </a>
+        <a href="">
+            <div class="paginas">2</div>
+        </a>
+        <a href="">
+            <div class="paginas">3</div>
+        </a>
+        <a href="">
+            <div class="paginas">4</div>
+        </a>
+        <a href="">
+            <div class="paginas">5</div>
+        </a>
+        <a href="">
+            <div class="paginas">6</div>
+        </a>
+    </div>
+
+    <a href="">
+        <img src="/images/iconos_paginas/detante.png">
+    </a>  
+
+</div>
