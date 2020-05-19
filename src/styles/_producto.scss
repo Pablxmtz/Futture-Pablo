@@ -1,3 +1,152 @@
+.container {
+    padding-bottom: var(--margin-body);
+    padding-left: var(--margin-body);
+    padding-right: var(--margin-body);
+    display: flex;
+}
+
+.container a{
+    color: black;
+}
+
 .imagenes-producto {
     width: 70%;
+}
+
+.flex-imagenes-pequeñas {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.margin-img-peq {
+    margin-right: 20px;
+}
+
+
+.imagen-modelo {
+    width: 49%;
+}
+
+.informacion {
+    margin-left: 30px;
+    width: 30%;
+}
+
+.subtitulo {
+    font-family: BlackerRegular;
+}
+
+.nombre {
+    font-family: BlackerBold
+}
+
+.descripcion-precio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colores img {
+    width: 31%;
+}
+
+.colores img:last-child {
+    margin-right: 0px;
+}
+
+.colores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tallas {
+    font-family: BlackerRegular;
+}
+
+.columna-talla {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.talla {
+    border: 1px solid grey;
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 10px;
+}
+
+.talla:last-child {
+    margin-right: 0px;
+}
+
+.añadir-cesta {
+    max-width: 100%;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid grey;
+    font-family: BlackerRegular;
+    margin-top: 70px;
+    background-color: grey;
+}
+
+.favoritos {
+    max-width: 100%;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid grey;
+    font-family: BlackerRegular;
+    margin-top: 10px;
+}
+
+.descripcion a {
+    color: black;
+}
+
+.devoluciones {
+    font-family: BlackerRegular;
+    border-top: 1px solid grey;
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.devoluciones img {
+    max-width: 30px;
+    height: 30px;
+}
+
+.evaluaciones {
+    font-family: BlackerRegular;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrellas img {
+    width: 100px;
+}
+
+.abajo img {
+    max-width: 30px;
+    height: 30px;
+}
+
+.espaciar-img {
+    display: flex;
 }

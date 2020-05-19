@@ -13,17 +13,17 @@
 <div class="ficha-flex">
     {% for elementoActual in autores %}
         {% set datosFicha = elementoActual %}
-        <a href="/producto/">
-            <div class="producto">
-                    <img src="{{datosFicha.imagen}}">
+        <div class="producto">
+            <a href="/producto/">                   
+                <img src="{{datosFicha.imagen}}">
                 <div class="descripcion">
                     <h4>{{datosFicha.modelo}}</h4>
                     <h4>{{datosFicha.tipoprenda}}</h4>
                     <br>
                     <h4>{{datosFicha.precio}}</h4>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     {% endfor %}
 </div>
 
