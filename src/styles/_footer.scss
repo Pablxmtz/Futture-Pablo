@@ -12,6 +12,7 @@
 
 .redes-sociales {
     margin-left: auto;
+    display: flex;
 }
 
 .columna {
@@ -20,4 +21,42 @@
 
 .columna a{
     color: white;
+}
+
+.flex-footer {
+    display: flex;
+}
+
+.margin-top-footer {
+    padding-top: 0px;
+}
+
+.margin-top-sociales {
+    padding-top: 0px;
+}
+
+
+@media (max-width: 900px) {
+    .flex-footer {
+        display: block;
+    }    
+    
+    .margin-top-footer {
+        padding-top: 20px;
+    }
+
+    .margin-top-sociales {
+        padding-top: 10px;
+    }
+
+    .redes-sociales {
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer {
+        display: block;
+    }
 }

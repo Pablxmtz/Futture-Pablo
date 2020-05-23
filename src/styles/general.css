@@ -31,3 +31,9 @@ a {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 400px) {
+    .div-inicial h1 {
+        line-height: 1;
+    }
+}
