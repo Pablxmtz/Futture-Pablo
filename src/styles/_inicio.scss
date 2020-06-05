@@ -61,4 +61,18 @@
     .home {
         min-height: 550px;
     }
+
+    .track-2 {
+        width: 165px;
+    }
+}
+
+@media (max-width: 450px) {
+    .comprar-niño {
+        width: 180px;
+    }
+
+    .comprar{
+        width: 105px;
+    }
 }
