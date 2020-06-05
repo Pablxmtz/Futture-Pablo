@@ -4,9 +4,11 @@
 }
 
 .imagen-p-cesta {
-    max-width: 210px;
+    width: 300px;
+    min-width: 120px;
     margin-right: 20px;
 }
+
 
 .producto-cesta {
     display: flex;
@@ -32,7 +34,6 @@
 
 .resumen {
     width: 35%;
-    height: 340px;
     border: 1px solid grey;
     padding-top: 20px;
     padding-left: 30px;
@@ -65,10 +66,18 @@
     margin-top: 30px;
 }
 
+.descripcion-cesta-flex {
+    display: flex;
+    width: 100%;
+}
+
+.añadir-favoritos{
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1012px) {
     .resumen {
         width: 100%;
-        height: 340px;
         margin-top: 0px;
     }
 
@@ -79,5 +88,26 @@
     .cesta {
         width: 100%;
         padding-right: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .descripcion-cesta-flex {
+        display: block;
+    }
+
+    .opciones {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .descripcion-cesta-flex h3{
+        font-size: 22px;
+    }
+
+    .opciones {
+        width: 150px;
     }
 }
